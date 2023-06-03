@@ -1,0 +1,172 @@
+/* paleta de colores: https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #3c74c7;
+  }
+
+  .img-logo{
+    margin-right: 1rem;
+  }
+  
+  .btn-buscador{
+    background-color: #34a852;
+  }
+
+  .btn-buscador:hover{
+    background-color: #303030;
+  }
+
+  .container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .container h1{
+    color: #2f3e46;
+  }
+
+  .contenedor-card{
+    background-color: #2f3e46;
+    border-radius: 10px;
+    color: #eff2ec;
+  }
+
+  .contenido-principal{
+    margin: 0;
+  }
+
+
+  .contenedor-card h3{
+    font-size: 42px;
+    font-weight: 400;
+  }
+  
+
+  .contenedor-iframe{
+    padding: 0;
+  }
+  .contenedor-iframe iframe{
+    border-radius: 0 10px 0 0;
+  
+  }
+  
+  .info-principal{
+    padding-left: 1.5rem;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .mas-info p{
+    font-size: 14px;
+  }
+  
+  .icono-clima{
+    flex: 0 0 60%; 
+  }
+  
+  .icono-clima img{
+    width: 100%;
+  }
+  
+  .descripcion-icono{
+    flex: 0 0 40%;
+    font-size: 14px;
+  }
+
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    flex-grow: 1;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    background-color: #fff;
+    border-radius: 5px;
+    /* padding: 20px; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .current-weather {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .current-weather img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .temperature {
+    display: flex;
+    align-items: baseline;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .temperature .degree {
+    margin-right: 10px;
+  }
+  
+  .min-max {
+    font-size: 18px;
+    color: #666;
+  }
+
+  p{
+      margin-bottom: 0;
+    }
+
+  #player{
+      width: 100%;
+      height: 100%;
+    }
+
+
+
+/* Responsive */
+ @media (min-width: 420px) and (max-width: 768px) {
+  .contenedor-card{
+      justify-content: center;
+  }
+  .contenedor-card .cards-columnas{
+    width: 80%;
+    padding: 15px;
+  }
+  .contenedor-iframe{
+    height: 250px;
+  }
+  .contenedor-iframe iframe{
+    border-radius: 0;
+  }
+} 
