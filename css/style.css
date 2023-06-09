@@ -7,7 +7,7 @@
   }
   
   body {
-    background-color: #3c74c7;
+    background-color: #1f2732;
   }
 
   .img-logo{
@@ -15,7 +15,7 @@
   }
   
   .btn-buscador{
-    background-color: #34a852;
+    background-color: #2080ec;
   }
 
   .btn-buscador:hover{
@@ -47,7 +47,6 @@
     font-size: 42px;
     font-weight: 400;
   }
-  
 
   .contenedor-iframe{
     padding: 0;
@@ -102,7 +101,6 @@
     padding: 10px 20px;
     border: none;
     border-radius: 0 5px 5px 0;
-    background-color: #4caf50;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
